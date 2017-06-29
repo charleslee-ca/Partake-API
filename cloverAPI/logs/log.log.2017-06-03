@@ -1,0 +1,550 @@
+{"level":"error","message":"\u001b[31merror: \u001b[39mError: The hook `orm` is taking too long to load.\nMake sure it is triggering its `initialize()` callback, or else set `sails.config.orm._hookTimeout to a higher value (currently 20000)\n    at Timeout.tooLong [as _onTimeout] (/Volumes/DATA/Work/Clover/Clover-API/cloverAPI/node_modules/sails/lib/app/private/loadHooks.js:85:21)\n    at ontimeout (timers.js:386:14)\n    at tryOnTimeout (timers.js:250:5)\n    at Timer.listOnTimeout (timers.js:214:5)","timestamp":"2017-06-03T03:42:32.197Z"}
+{"level":"error","message":"\u001b[31merror: \u001b[39mA hook (`orm`) failed to load!","timestamp":"2017-06-03T03:42:35.146Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m\u001b[90m-------------------------------------------------------\u001b[39m","timestamp":"2017-06-03T03:45:07.839Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m\u001b[90m:: Sat Jun 03 2017 05:45:07 GMT+0200 (CEST)\u001b[39m","timestamp":"2017-06-03T03:45:07.840Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mEnvironment : development","timestamp":"2017-06-03T03:45:07.840Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mPort        : 1337","timestamp":"2017-06-03T03:45:07.840Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m\u001b[90m-------------------------------------------------------\u001b[39m","timestamp":"2017-06-03T03:45:07.840Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity?lat=39.000000&lon=-77.000000&userAge=25&userGender=male&fbId=451634205198039","timestamp":"2017-06-03T03:45:14.897Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting new Request of activities-----","timestamp":"2017-06-03T03:45:14.897Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUser Age: 25 || User Gender: male","timestamp":"2017-06-03T03:45:14.897Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mFbFriends: 0||FbFriendsOfFriends: 0","timestamp":"2017-06-03T03:45:16.064Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity?lat=39.000000&lon=-77.000000&userAge=25&userGender=male&fbId=451634205198039","timestamp":"2017-06-03T03:45:20.970Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting new Request of activities-----","timestamp":"2017-06-03T03:45:20.970Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUser Age: 25 || User Gender: male","timestamp":"2017-06-03T03:45:20.970Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity/58eef23a0cb1f45519d38fef?fbId=451634205198039","timestamp":"2017-06-03T03:45:21.052Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Start Filtering Activities : 33","timestamp":"2017-06-03T03:45:21.462Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 1 : Number of Days : 33","timestamp":"2017-06-03T03:45:21.462Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 2 : Default Preferences : 33","timestamp":"2017-06-03T03:45:21.463Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 3 : Distance : 27","timestamp":"2017-06-03T03:45:21.489Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 4 : Visibility privacy : 27","timestamp":"2017-06-03T03:45:21.490Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 58ef005e0cb1f45519d38ff5","timestamp":"2017-06-03T03:45:21.490Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 58f3f8330cb1f45519d39030","timestamp":"2017-06-03T03:45:21.490Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 58f59bf20cb1f45519d39043","timestamp":"2017-06-03T03:45:21.490Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 59033e580cb1f45519d39073","timestamp":"2017-06-03T03:45:21.490Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities found : 27","timestamp":"2017-06-03T03:45:21.490Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Finishing new Request of activities-----","timestamp":"2017-06-03T03:45:21.490Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mFbFriends: 0||FbFriendsOfFriends: 0","timestamp":"2017-06-03T03:45:21.612Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /user/mutualFriends?fbId=1423601877700097","timestamp":"2017-06-03T03:45:21.952Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Start Filtering Activities : 33","timestamp":"2017-06-03T03:45:26.176Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 1 : Number of Days : 33","timestamp":"2017-06-03T03:45:26.176Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 2 : Default Preferences : 33","timestamp":"2017-06-03T03:45:26.176Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 3 : Distance : 27","timestamp":"2017-06-03T03:45:26.179Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 4 : Visibility privacy : 27","timestamp":"2017-06-03T03:45:26.179Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 58ef005e0cb1f45519d38ff5","timestamp":"2017-06-03T03:45:26.179Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 58f3f8330cb1f45519d39030","timestamp":"2017-06-03T03:45:26.179Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 58f59bf20cb1f45519d39043","timestamp":"2017-06-03T03:45:26.179Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 59033e580cb1f45519d39073","timestamp":"2017-06-03T03:45:26.179Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities found : 27","timestamp":"2017-06-03T03:45:26.179Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Finishing new Request of activities-----","timestamp":"2017-06-03T03:45:26.179Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity/attendance?id=58eef23a0cb1f45519d38fef","timestamp":"2017-06-03T03:46:09.500Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting get attendance list of activities-----","timestamp":"2017-06-03T03:46:09.501Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef70c52a7e92706e74e5c8","timestamp":"2017-06-03T03:46:09.767Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef71622a7e92706e74e5cb","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef718b2a7e92706e74e5cc","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef74152a7e92706e74e5cd","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef74922a7e92706e74e5ce","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef827c2a7e92706e74e5cf","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef83552a7e92706e74e5d0","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef83562a7e92706e74e5d1","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 55f0e0fa2a7e92706e74e5ed","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f0e2372a7e92706e74e5ee","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f0e33e2a7e92706e74e5ef","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f0e35e2a7e92706e74e5f0","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f0e3662a7e92706e74e5f1","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f0e3792a7e92706e74e5f2","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f4ca1a2a7e92706e74e5fe","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 55f4ca782a7e92706e74e5ff","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f4cb9a2a7e92706e74e600","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 55f5816d2a7e92706e74e601","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f7044f0a79228b41c23eca","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f773c20a79228b41c23ecd","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55fa1a6a0a79228b41c231e3","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55fa1a6a0a79228b41c23ee3","timestamp":"2017-06-03T03:46:09.768Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55faa2250a79228b41c23ee5","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 55faa2680a79228b41c23ee6","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55faa2800a79228b41c231e7","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55faa2800a79228b41c23ee7","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 55fc34e80a79228b41c23eec","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 560e710845d253be3b3cd73b","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 561b50a013cbdd6a5068afce","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5624008c13cbdd6a5068aff9","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5624033313cbdd6a5068affd","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5625540913cbdd6a5068b009","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56267cfc13cbdd6a5068b017","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5632429013cbdd6a5068b0b1","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5655e947f7ab50715f14f629","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5674358ab8bf13b37499ca4d","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5674c659b8bf13b37499ca57","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 567588e4b8bf13b37499ca66","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5676a25ab8bf13b37499ca85","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5676c218b8bf13b37499ca87","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5676c3e2b8bf13b37499ca88","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 567780cab8bf13b37499caa6","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5679a332b8bf13b37499cad6","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5679a97bb8bf13b37499cadd","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5679fa4cb8bf13b37499cae2","timestamp":"2017-06-03T03:46:09.769Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5679ffb0b8bf13b37499cae3","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 567a039fb8bf13b37499cae4","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 567ae706b8bf13b37499caea","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 567b2832b8bf13b37499caef","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 567b2b6cb8bf13b37499caf5","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 567b8e96b8bf13b37499cafc","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 567c32aeb8bf13b37499caff","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 567c351cb8bf13b37499cb00","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56808c14b8bf13b37499cb08","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56970085b8bf13b37499cb26","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5697bee1b8bf13b37499cb3c","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569907fee9d87cf8767875e5","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56990887e9d87cf8767875e6","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56991b7ae9d87cf8767875e8","timestamp":"2017-06-03T03:46:09.770Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56991bf4e9d87cf8767875e9","timestamp":"2017-06-03T03:46:09.771Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56993100e9d87cf8767875ea","timestamp":"2017-06-03T03:46:09.771Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5699330da7fd2f17036ead62","timestamp":"2017-06-03T03:46:09.771Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569933f9a7fd2f17036ead63","timestamp":"2017-06-03T03:46:09.771Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5699a380a7fd2f17036ead66","timestamp":"2017-06-03T03:46:09.771Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5699a38aa7fd2f17036ead67","timestamp":"2017-06-03T03:46:09.771Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5699c501a7fd2f17036ead6d","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5699c5e6a7fd2f17036ead6e","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569a7b93a7fd2f17036ead73","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569a7bfda7fd2f17036ead74","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569a7db1a7fd2f17036ead75","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569a7e5aa7fd2f17036ead7a","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569a7e64a7fd2f17036ead7b","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569a7e75a7fd2f17036ead7c","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569bc8d8a7fd2f17036ead80","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569c1d8ba7fd2f17036ead82","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 569c1db0a7fd2f17036ead83","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 569c1deba7fd2f17036ead84","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 569c2016a7fd2f17036ead88","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569c20a0a7fd2f17036ead89","timestamp":"2017-06-03T03:46:09.772Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569c20a6a7fd2f17036ead8a","timestamp":"2017-06-03T03:46:09.773Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569ef1a5a7fd2f17036ead93","timestamp":"2017-06-03T03:46:09.773Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 569ef1f1a7fd2f17036ead96","timestamp":"2017-06-03T03:46:09.773Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569ef309a7fd2f17036ead99","timestamp":"2017-06-03T03:46:09.773Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569ef46ba7fd2f17036ead9d","timestamp":"2017-06-03T03:46:09.773Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569ef4aea7fd2f17036eada0","timestamp":"2017-06-03T03:46:09.773Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569fbb6fa7fd2f17036eada4","timestamp":"2017-06-03T03:46:09.773Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569fbbdca7fd2f17036eada5","timestamp":"2017-06-03T03:46:09.773Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569fbc21a7fd2f17036eada7","timestamp":"2017-06-03T03:46:09.773Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569fbc63a7fd2f17036eada8","timestamp":"2017-06-03T03:46:09.773Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a00b1aa7fd2f17036eadab","timestamp":"2017-06-03T03:46:09.773Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a00b25a7fd2f17036eadac","timestamp":"2017-06-03T03:46:09.773Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a01a38a7fd2f17036eadaf","timestamp":"2017-06-03T03:46:09.774Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a02354a7fd2f17036eadb2","timestamp":"2017-06-03T03:46:09.774Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a02396a7fd2f17036eadb3","timestamp":"2017-06-03T03:46:09.775Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a03307a7fd2f17036eadb9","timestamp":"2017-06-03T03:46:09.775Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a03360a7fd2f17036eadbe","timestamp":"2017-06-03T03:46:09.775Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a0336ca7fd2f17036eadbf","timestamp":"2017-06-03T03:46:09.775Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a26204a7fd2f17036eadcd","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a2d0fda7fd2f17036eadd8","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a3bf7ba7fd2f17036eadf1","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a3bf7fa7fd2f17036eadf2","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a3bf84a7fd2f17036eadf3","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a3f1d5a7fd2f17036eadf7","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a577a4a7fd2f17036eae0a","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a586dca7fd2f17036eae10","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a586faa7fd2f17036eae11","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a5b0efa7fd2f17036eae25","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a62ee9a7fd2f17036eae2a","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a62f86a7fd2f17036eae2b","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a63000a7fd2f17036eae2c","timestamp":"2017-06-03T03:46:09.776Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a79b55950f1bc62d9d1f09","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a79b67950f1bc62d9d1f0a","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a79c4b950f1bc62d9d1f0b","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a79d0b950f1bc62d9d1f0e","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a7cc2b950f1bc62d9d1f12","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a7e7ee950f1bc62d9d1f16","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a9bb19950f1bc62d9d1f5f","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56aa0934950f1bc62d9d1f60","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aa094f950f1bc62d9d1f61","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aae7d4950f1bc62d9d1f62","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aae7d6950f1bc62d9d1f63","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aae7d7950f1bc62d9d1f64","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aae7da950f1bc62d9d1f65","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56aae828950f1bc62d9d1f66","timestamp":"2017-06-03T03:46:09.777Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aae841950f1bc62d9d1f67","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56aaeb74950f1bc62d9d1f68","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aaeb84950f1bc62d9d1f69","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aaec94950f1bc62d9d1f6a","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aaec97950f1bc62d9d1f6b","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aaec99950f1bc62d9d1f6c","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aaec9b950f1bc62d9d1f6d","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ab5e74950f1bc62d9d1f6e","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ab5e7f950f1bc62d9d1f6f","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ab5ea8950f1bc62d9d1f70","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ab5eaa950f1bc62d9d1f71","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ad27df950f1bc62d9d1f72","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56b0e664950f1bc62d9d1f7c","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56b0e94033a3e4224def2194","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56b120f333a3e4224def2195","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56b3fc2733a3e4224def219b","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56bff0ec18486e0517f3516a","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56c0cf3018486e0517f35171","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56c0f90118486e0517f35174","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56c2261818486e0517f3517e","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56c608e018486e0517f35191","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56c8a8dc888ed9ae5b0181d6","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56c8a8dd888ed9ae5b0181d7","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56c8a90b888ed9ae5b0181d8","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56c8a9a4888ed9ae5b0181d9","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56ca2db55433325a795c6bb5","timestamp":"2017-06-03T03:46:09.778Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cb5e3d5433325a795c6bbc","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cb5f5c5433325a795c6bbd","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cb825c5433325a795c6bc2","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cb84f55433325a795c6bc5","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cba26b5433325a795c6bc7","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cba27e5433325a795c6bc8","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cbd04e5433325a795c6bd0","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cc9a2f5433325a795c6be1","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ccc3ba5433325a795c6be6","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cd61f95433325a795c6bf3","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ce2dce2033cbf6622b0e2e","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ce4bee2033cbf6622b0e30","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cf36892033cbf6622b0e42","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cf71362033cbf6622b0e4e","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cfdcd92033cbf6622b0e57","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56d12a9a2033cbf6622b0e61","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56ffed672033cbf6622b0fdb","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57067d6a2033cbf6622b1013","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57067d862033cbf6622b1015","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5706c5412033cbf6622b1016","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 570c4c6a2033cbf6622b101c","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 570c4c6a2033cbf6622b101d","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5719651f2033cbf6622b1024","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5730a89fec9b4a8f6466aacd","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5730a903ec9b4a8f6466aace","timestamp":"2017-06-03T03:46:09.779Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5730c8bfec9b4a8f6466aacf","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57320950ec9b4a8f6466aad2","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5732aae7ec9b4a8f6466aad4","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 573b2094ec9b4a8f6466aade","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57428240ec9b4a8f6466aae4","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57428276ec9b4a8f6466aae6","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5742833fec9b4a8f6466aae8","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57428373ec9b4a8f6466aae9","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 574283d3ec9b4a8f6466aaea","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5742b71fec9b4a8f6466aaef","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 5743411bec9b4a8f6466aaf8","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 5743411dec9b4a8f6466aaf9","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 5743412cec9b4a8f6466aafa","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 5743414dec9b4a8f6466aafb","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57434546ec9b4a8f6466aafc","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57434555ec9b4a8f6466aafd","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5743456aec9b4a8f6466aafe","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5743581aec9b4a8f6466ab00","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 574374caec9b4a8f6466ab02","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5743750cec9b4a8f6466ab04","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5743a225ec9b4a8f6466ab06","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5743a23eec9b4a8f6466ab07","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5743efcaec9b4a8f6466ab08","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 574441edec9b4a8f6466ab0a","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 574441feec9b4a8f6466ab0b","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 57444277ec9b4a8f6466ab0c","timestamp":"2017-06-03T03:46:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57465bfbec9b4a8f6466ab16","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5752e773ec9b4a8f6466ab23","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 575476f0ec9b4a8f6466ab26","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 575940e0ec9b4a8f6466ab34","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 575940f3ec9b4a8f6466ab35","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57594108ec9b4a8f6466ab36","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57594117ec9b4a8f6466ab37","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 575bb8e1ec9b4a8f6466ab3b","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 576b259eec9b4a8f6466ab63","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 576c9aecec9b4a8f6466ab66","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 576c9af2ec9b4a8f6466ab67","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 576c9af7ec9b4a8f6466ab68","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 576c9afdec9b4a8f6466ab69","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 576c9b05ec9b4a8f6466ab6a","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 577725d8ec9b4a8f6466ab7f","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 577725e7ec9b4a8f6466ab80","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57784546ec9b4a8f6466ab82","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57784589ec9b4a8f6466ab83","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 577846a5ec9b4a8f6466ab87","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57784d01ec9b4a8f6466ab89","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5778575fec9b4a8f6466ab8a","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 579b8facec9b4a8f6466abad","timestamp":"2017-06-03T03:46:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57c5edc1ec9b4a8f6466abd9","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 57c9bbe1ec9b4a8f6466abe0","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58022903ec9b4a8f6466ac52","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5803c75aec9b4a8f6466ac55","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5839ba353d83ec2240317048","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 58621c1a3d83ec2240317061","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5893dbad80b41b1026a08822","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58a50ef09c0c8d3577d0e212","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58a8816c9c0c8d3577d0e219","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58d075379c0c8d3577d0e2a0","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58d077319c0c8d3577d0e2a6","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58d079169c0c8d3577d0e2a9","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58d54faf9c0c8d3577d0e2b7","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58d6871847df7ab7137f4a44","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58dbdc8b47df7ab7137f4a66","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58dbe27847df7ab7137f4a72","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58dbe29747df7ab7137f4a73","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58dbe2c347df7ab7137f4a74","timestamp":"2017-06-03T03:46:09.783Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58ddcb3747df7ab7137f4a81","timestamp":"2017-06-03T03:46:09.784Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58de06ab47df7ab7137f4a93","timestamp":"2017-06-03T03:46:09.784Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58e7425c47df7ab7137f4ab6","timestamp":"2017-06-03T03:46:09.784Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58e7f77f0cb1f45519d38fce","timestamp":"2017-06-03T03:46:09.784Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity/58eef23a0cb1f45519d38fef?fbId=451634205198039","timestamp":"2017-06-03T03:46:13.746Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /user/mutualFriends?fbId=1423601877700097","timestamp":"2017-06-03T03:46:14.612Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity?lat=39.000000&lon=-77.000000&userAge=25&userGender=male&fbId=451634205198039","timestamp":"2017-06-03T03:46:14.855Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting new Request of activities-----","timestamp":"2017-06-03T03:46:14.855Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUser Age: 25 || User Gender: male","timestamp":"2017-06-03T03:46:14.855Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mFbFriends: 0||FbFriendsOfFriends: 0","timestamp":"2017-06-03T03:46:15.399Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mBad request > Error : E_BUSSINESS_LOGIC","timestamp":"2017-06-03T03:46:57.718Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mBad request > Error : E_BUSSINESS_LOGIC","timestamp":"2017-06-03T03:46:57.835Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef70c52a7e92706e74e5c8","timestamp":"2017-06-03T03:46:58.009Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef71622a7e92706e74e5cb","timestamp":"2017-06-03T03:46:58.009Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef718b2a7e92706e74e5cc","timestamp":"2017-06-03T03:46:58.009Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef74152a7e92706e74e5cd","timestamp":"2017-06-03T03:46:58.009Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef74922a7e92706e74e5ce","timestamp":"2017-06-03T03:46:58.009Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef827c2a7e92706e74e5cf","timestamp":"2017-06-03T03:46:58.009Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef83552a7e92706e74e5d0","timestamp":"2017-06-03T03:46:58.009Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55ef83562a7e92706e74e5d1","timestamp":"2017-06-03T03:46:58.010Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 55f0e0fa2a7e92706e74e5ed","timestamp":"2017-06-03T03:46:58.010Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f0e2372a7e92706e74e5ee","timestamp":"2017-06-03T03:46:58.010Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f0e33e2a7e92706e74e5ef","timestamp":"2017-06-03T03:46:58.010Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f0e35e2a7e92706e74e5f0","timestamp":"2017-06-03T03:46:58.010Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f0e3662a7e92706e74e5f1","timestamp":"2017-06-03T03:46:58.010Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f0e3792a7e92706e74e5f2","timestamp":"2017-06-03T03:46:58.010Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f4ca1a2a7e92706e74e5fe","timestamp":"2017-06-03T03:46:58.010Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 55f4ca782a7e92706e74e5ff","timestamp":"2017-06-03T03:46:58.010Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f4cb9a2a7e92706e74e600","timestamp":"2017-06-03T03:46:58.010Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 55f5816d2a7e92706e74e601","timestamp":"2017-06-03T03:46:58.010Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f7044f0a79228b41c23eca","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55f773c20a79228b41c23ecd","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55fa1a6a0a79228b41c231e3","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55fa1a6a0a79228b41c23ee3","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55faa2250a79228b41c23ee5","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 55faa2680a79228b41c23ee6","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55faa2800a79228b41c231e7","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 55faa2800a79228b41c23ee7","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 55fc34e80a79228b41c23eec","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 560e710845d253be3b3cd73b","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 561b50a013cbdd6a5068afce","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5624008c13cbdd6a5068aff9","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5624033313cbdd6a5068affd","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5625540913cbdd6a5068b009","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56267cfc13cbdd6a5068b017","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5632429013cbdd6a5068b0b1","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5655e947f7ab50715f14f629","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5674358ab8bf13b37499ca4d","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5674c659b8bf13b37499ca57","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 567588e4b8bf13b37499ca66","timestamp":"2017-06-03T03:46:58.011Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5676a25ab8bf13b37499ca85","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5676c218b8bf13b37499ca87","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5676c3e2b8bf13b37499ca88","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 567780cab8bf13b37499caa6","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5679a332b8bf13b37499cad6","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5679a97bb8bf13b37499cadd","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5679fa4cb8bf13b37499cae2","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5679ffb0b8bf13b37499cae3","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 567a039fb8bf13b37499cae4","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 567ae706b8bf13b37499caea","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 567b2832b8bf13b37499caef","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 567b2b6cb8bf13b37499caf5","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 567b8e96b8bf13b37499cafc","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 567c32aeb8bf13b37499caff","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 567c351cb8bf13b37499cb00","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56808c14b8bf13b37499cb08","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56970085b8bf13b37499cb26","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5697bee1b8bf13b37499cb3c","timestamp":"2017-06-03T03:46:58.012Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569907fee9d87cf8767875e5","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56990887e9d87cf8767875e6","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56991b7ae9d87cf8767875e8","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56991bf4e9d87cf8767875e9","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56993100e9d87cf8767875ea","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5699330da7fd2f17036ead62","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569933f9a7fd2f17036ead63","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5699a380a7fd2f17036ead66","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5699a38aa7fd2f17036ead67","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5699c501a7fd2f17036ead6d","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5699c5e6a7fd2f17036ead6e","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569a7b93a7fd2f17036ead73","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569a7bfda7fd2f17036ead74","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569a7db1a7fd2f17036ead75","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569a7e5aa7fd2f17036ead7a","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569a7e64a7fd2f17036ead7b","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569a7e75a7fd2f17036ead7c","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569bc8d8a7fd2f17036ead80","timestamp":"2017-06-03T03:46:58.013Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569c1d8ba7fd2f17036ead82","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 569c1db0a7fd2f17036ead83","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 569c1deba7fd2f17036ead84","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 569c2016a7fd2f17036ead88","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569c20a0a7fd2f17036ead89","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569c20a6a7fd2f17036ead8a","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569ef1a5a7fd2f17036ead93","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 569ef1f1a7fd2f17036ead96","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569ef309a7fd2f17036ead99","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569ef46ba7fd2f17036ead9d","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569ef4aea7fd2f17036eada0","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569fbb6fa7fd2f17036eada4","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569fbbdca7fd2f17036eada5","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569fbc21a7fd2f17036eada7","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 569fbc63a7fd2f17036eada8","timestamp":"2017-06-03T03:46:58.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a00b1aa7fd2f17036eadab","timestamp":"2017-06-03T03:46:58.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a00b25a7fd2f17036eadac","timestamp":"2017-06-03T03:46:58.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a01a38a7fd2f17036eadaf","timestamp":"2017-06-03T03:46:58.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a02354a7fd2f17036eadb2","timestamp":"2017-06-03T03:46:58.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a02396a7fd2f17036eadb3","timestamp":"2017-06-03T03:46:58.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a03307a7fd2f17036eadb9","timestamp":"2017-06-03T03:46:58.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a03360a7fd2f17036eadbe","timestamp":"2017-06-03T03:46:58.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a0336ca7fd2f17036eadbf","timestamp":"2017-06-03T03:46:58.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a26204a7fd2f17036eadcd","timestamp":"2017-06-03T03:46:58.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a2d0fda7fd2f17036eadd8","timestamp":"2017-06-03T03:46:58.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a3bf7ba7fd2f17036eadf1","timestamp":"2017-06-03T03:46:58.016Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a3bf7fa7fd2f17036eadf2","timestamp":"2017-06-03T03:46:58.016Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a3bf84a7fd2f17036eadf3","timestamp":"2017-06-03T03:46:58.016Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a3f1d5a7fd2f17036eadf7","timestamp":"2017-06-03T03:46:58.016Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a577a4a7fd2f17036eae0a","timestamp":"2017-06-03T03:46:58.017Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a586dca7fd2f17036eae10","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a586faa7fd2f17036eae11","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a5b0efa7fd2f17036eae25","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a62ee9a7fd2f17036eae2a","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a62f86a7fd2f17036eae2b","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a63000a7fd2f17036eae2c","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a79b55950f1bc62d9d1f09","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a79b67950f1bc62d9d1f0a","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a79c4b950f1bc62d9d1f0b","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a79d0b950f1bc62d9d1f0e","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56a7cc2b950f1bc62d9d1f12","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a7e7ee950f1bc62d9d1f16","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56a9bb19950f1bc62d9d1f5f","timestamp":"2017-06-03T03:46:58.018Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56aa0934950f1bc62d9d1f60","timestamp":"2017-06-03T03:46:58.019Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aa094f950f1bc62d9d1f61","timestamp":"2017-06-03T03:46:58.019Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aae7d4950f1bc62d9d1f62","timestamp":"2017-06-03T03:46:58.019Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aae7d6950f1bc62d9d1f63","timestamp":"2017-06-03T03:46:58.019Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aae7d7950f1bc62d9d1f64","timestamp":"2017-06-03T03:46:58.019Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aae7da950f1bc62d9d1f65","timestamp":"2017-06-03T03:46:58.019Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56aae828950f1bc62d9d1f66","timestamp":"2017-06-03T03:46:58.019Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aae841950f1bc62d9d1f67","timestamp":"2017-06-03T03:46:58.019Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56aaeb74950f1bc62d9d1f68","timestamp":"2017-06-03T03:46:58.019Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aaeb84950f1bc62d9d1f69","timestamp":"2017-06-03T03:46:58.019Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aaec94950f1bc62d9d1f6a","timestamp":"2017-06-03T03:46:58.020Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aaec97950f1bc62d9d1f6b","timestamp":"2017-06-03T03:46:58.020Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aaec99950f1bc62d9d1f6c","timestamp":"2017-06-03T03:46:58.020Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56aaec9b950f1bc62d9d1f6d","timestamp":"2017-06-03T03:46:58.020Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ab5e74950f1bc62d9d1f6e","timestamp":"2017-06-03T03:46:58.020Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ab5e7f950f1bc62d9d1f6f","timestamp":"2017-06-03T03:46:58.020Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ab5ea8950f1bc62d9d1f70","timestamp":"2017-06-03T03:46:58.020Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ab5eaa950f1bc62d9d1f71","timestamp":"2017-06-03T03:46:58.020Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ad27df950f1bc62d9d1f72","timestamp":"2017-06-03T03:46:58.020Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56b0e664950f1bc62d9d1f7c","timestamp":"2017-06-03T03:46:58.020Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56b0e94033a3e4224def2194","timestamp":"2017-06-03T03:46:58.020Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56b120f333a3e4224def2195","timestamp":"2017-06-03T03:46:58.020Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56b3fc2733a3e4224def219b","timestamp":"2017-06-03T03:46:58.021Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56bff0ec18486e0517f3516a","timestamp":"2017-06-03T03:46:58.021Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56c0cf3018486e0517f35171","timestamp":"2017-06-03T03:46:58.021Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56c0f90118486e0517f35174","timestamp":"2017-06-03T03:46:58.021Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56c2261818486e0517f3517e","timestamp":"2017-06-03T03:46:58.021Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56c608e018486e0517f35191","timestamp":"2017-06-03T03:46:58.021Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56c8a8dc888ed9ae5b0181d6","timestamp":"2017-06-03T03:46:58.021Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56c8a8dd888ed9ae5b0181d7","timestamp":"2017-06-03T03:46:58.021Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56c8a90b888ed9ae5b0181d8","timestamp":"2017-06-03T03:46:58.021Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56c8a9a4888ed9ae5b0181d9","timestamp":"2017-06-03T03:46:58.021Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56ca2db55433325a795c6bb5","timestamp":"2017-06-03T03:46:58.021Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cb5e3d5433325a795c6bbc","timestamp":"2017-06-03T03:46:58.021Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cb5f5c5433325a795c6bbd","timestamp":"2017-06-03T03:46:58.022Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cb825c5433325a795c6bc2","timestamp":"2017-06-03T03:46:58.022Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cb84f55433325a795c6bc5","timestamp":"2017-06-03T03:46:58.022Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cba26b5433325a795c6bc7","timestamp":"2017-06-03T03:46:58.022Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cba27e5433325a795c6bc8","timestamp":"2017-06-03T03:46:58.022Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cbd04e5433325a795c6bd0","timestamp":"2017-06-03T03:46:58.022Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cc9a2f5433325a795c6be1","timestamp":"2017-06-03T03:46:58.022Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ccc3ba5433325a795c6be6","timestamp":"2017-06-03T03:46:58.022Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cd61f95433325a795c6bf3","timestamp":"2017-06-03T03:46:58.022Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ce2dce2033cbf6622b0e2e","timestamp":"2017-06-03T03:46:58.022Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56ce4bee2033cbf6622b0e30","timestamp":"2017-06-03T03:46:58.022Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cf36892033cbf6622b0e42","timestamp":"2017-06-03T03:46:58.022Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cf71362033cbf6622b0e4e","timestamp":"2017-06-03T03:46:58.023Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 56cfdcd92033cbf6622b0e57","timestamp":"2017-06-03T03:46:58.023Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56d12a9a2033cbf6622b0e61","timestamp":"2017-06-03T03:46:58.023Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 56ffed672033cbf6622b0fdb","timestamp":"2017-06-03T03:46:58.023Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57067d6a2033cbf6622b1013","timestamp":"2017-06-03T03:46:58.023Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57067d862033cbf6622b1015","timestamp":"2017-06-03T03:46:58.023Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5706c5412033cbf6622b1016","timestamp":"2017-06-03T03:46:58.023Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 570c4c6a2033cbf6622b101c","timestamp":"2017-06-03T03:46:58.023Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 570c4c6a2033cbf6622b101d","timestamp":"2017-06-03T03:46:58.023Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5719651f2033cbf6622b1024","timestamp":"2017-06-03T03:46:58.023Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5730a89fec9b4a8f6466aacd","timestamp":"2017-06-03T03:46:58.023Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5730a903ec9b4a8f6466aace","timestamp":"2017-06-03T03:46:58.023Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5730c8bfec9b4a8f6466aacf","timestamp":"2017-06-03T03:46:58.024Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57320950ec9b4a8f6466aad2","timestamp":"2017-06-03T03:46:58.024Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5732aae7ec9b4a8f6466aad4","timestamp":"2017-06-03T03:46:58.024Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 573b2094ec9b4a8f6466aade","timestamp":"2017-06-03T03:46:58.024Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57428240ec9b4a8f6466aae4","timestamp":"2017-06-03T03:46:58.024Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57428276ec9b4a8f6466aae6","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5742833fec9b4a8f6466aae8","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57428373ec9b4a8f6466aae9","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 574283d3ec9b4a8f6466aaea","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5742b71fec9b4a8f6466aaef","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 5743411bec9b4a8f6466aaf8","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 5743411dec9b4a8f6466aaf9","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 5743412cec9b4a8f6466aafa","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 5743414dec9b4a8f6466aafb","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57434546ec9b4a8f6466aafc","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57434555ec9b4a8f6466aafd","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5743456aec9b4a8f6466aafe","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5743581aec9b4a8f6466ab00","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 574374caec9b4a8f6466ab02","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5743750cec9b4a8f6466ab04","timestamp":"2017-06-03T03:46:58.025Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5743a225ec9b4a8f6466ab06","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5743a23eec9b4a8f6466ab07","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5743efcaec9b4a8f6466ab08","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 574441edec9b4a8f6466ab0a","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 574441feec9b4a8f6466ab0b","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 57444277ec9b4a8f6466ab0c","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57465bfbec9b4a8f6466ab16","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5752e773ec9b4a8f6466ab23","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 575476f0ec9b4a8f6466ab26","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 575940e0ec9b4a8f6466ab34","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 575940f3ec9b4a8f6466ab35","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57594108ec9b4a8f6466ab36","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57594117ec9b4a8f6466ab37","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 575bb8e1ec9b4a8f6466ab3b","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 576b259eec9b4a8f6466ab63","timestamp":"2017-06-03T03:46:58.026Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 576c9aecec9b4a8f6466ab66","timestamp":"2017-06-03T03:46:58.027Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 576c9af2ec9b4a8f6466ab67","timestamp":"2017-06-03T03:46:58.027Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 576c9af7ec9b4a8f6466ab68","timestamp":"2017-06-03T03:46:58.027Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 576c9afdec9b4a8f6466ab69","timestamp":"2017-06-03T03:46:58.027Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 576c9b05ec9b4a8f6466ab6a","timestamp":"2017-06-03T03:46:58.027Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 577725d8ec9b4a8f6466ab7f","timestamp":"2017-06-03T03:46:58.027Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 577725e7ec9b4a8f6466ab80","timestamp":"2017-06-03T03:46:58.027Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57784546ec9b4a8f6466ab82","timestamp":"2017-06-03T03:46:58.027Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57784589ec9b4a8f6466ab83","timestamp":"2017-06-03T03:46:58.027Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 577846a5ec9b4a8f6466ab87","timestamp":"2017-06-03T03:46:58.027Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57784d01ec9b4a8f6466ab89","timestamp":"2017-06-03T03:46:58.027Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5778575fec9b4a8f6466ab8a","timestamp":"2017-06-03T03:46:58.028Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 579b8facec9b4a8f6466abad","timestamp":"2017-06-03T03:46:58.028Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 57c5edc1ec9b4a8f6466abd9","timestamp":"2017-06-03T03:46:58.028Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 57c9bbe1ec9b4a8f6466abe0","timestamp":"2017-06-03T03:46:58.028Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58022903ec9b4a8f6466ac52","timestamp":"2017-06-03T03:46:58.028Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5803c75aec9b4a8f6466ac55","timestamp":"2017-06-03T03:46:58.028Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5839ba353d83ec2240317048","timestamp":"2017-06-03T03:46:58.028Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong requester attributes: Requester does not exist. RequestId : 58621c1a3d83ec2240317061","timestamp":"2017-06-03T03:46:58.029Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 5893dbad80b41b1026a08822","timestamp":"2017-06-03T03:46:58.029Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58a50ef09c0c8d3577d0e212","timestamp":"2017-06-03T03:46:58.029Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58a8816c9c0c8d3577d0e219","timestamp":"2017-06-03T03:46:58.029Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58d075379c0c8d3577d0e2a0","timestamp":"2017-06-03T03:46:58.030Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58d077319c0c8d3577d0e2a6","timestamp":"2017-06-03T03:46:58.030Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58d079169c0c8d3577d0e2a9","timestamp":"2017-06-03T03:46:58.030Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58d54faf9c0c8d3577d0e2b7","timestamp":"2017-06-03T03:46:58.030Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58d6871847df7ab7137f4a44","timestamp":"2017-06-03T03:46:58.030Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58dbdc8b47df7ab7137f4a66","timestamp":"2017-06-03T03:46:58.030Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58dbe27847df7ab7137f4a72","timestamp":"2017-06-03T03:46:58.032Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58dbe29747df7ab7137f4a73","timestamp":"2017-06-03T03:46:58.032Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58dbe2c347df7ab7137f4a74","timestamp":"2017-06-03T03:46:58.033Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58ddcb3747df7ab7137f4a81","timestamp":"2017-06-03T03:46:58.033Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58de06ab47df7ab7137f4a93","timestamp":"2017-06-03T03:46:58.033Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58e7425c47df7ab7137f4ab6","timestamp":"2017-06-03T03:46:58.033Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest with wrong activity attributes: Activity does not exist. RequestId : 58e7f77f0cb1f45519d38fce","timestamp":"2017-06-03T03:46:58.033Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Start Filtering Activities : 33","timestamp":"2017-06-03T03:47:01.455Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 1 : Number of Days : 33","timestamp":"2017-06-03T03:47:01.456Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 2 : Default Preferences : 33","timestamp":"2017-06-03T03:47:01.457Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 3 : Distance : 27","timestamp":"2017-06-03T03:47:01.461Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 4 : Visibility privacy : 27","timestamp":"2017-06-03T03:47:01.461Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 58ef005e0cb1f45519d38ff5","timestamp":"2017-06-03T03:47:01.461Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 58f3f8330cb1f45519d39030","timestamp":"2017-06-03T03:47:01.461Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 58f59bf20cb1f45519d39043","timestamp":"2017-06-03T03:47:01.461Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 59033e580cb1f45519d39073","timestamp":"2017-06-03T03:47:01.461Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities found : 27","timestamp":"2017-06-03T03:47:01.461Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Finishing new Request of activities-----","timestamp":"2017-06-03T03:47:01.461Z"}

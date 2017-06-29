@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edit Activity List</title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--STYLES-->
+    <link rel="stylesheet" href="/styles/importer.css">
+    <!--STYLES END-->
+  </head>
+  
+  <body onload="createTable()">
+    <h2> Edit Activity List</h2>
+    <div id="div_table">
+      <table id="data_activity_table">
+        <tbody>
+          <tr>
+            <th>Creator Id*</th>
+            <th>Date*</th>
+            <th>Name*</th>
+            <th>Details*</th>
+            <th>From Time</th>
+            <th>To Time</th>
+            <th>Is Atendee Visible</th>
+            <th>Type*</th>
+            <th>Delete</th>
+          </tr>
+          <% for (var i = 0; i < activities.length; i++){ %>
+            <tr>
+              <form action="/manager/deleteActivity" method="POST" onsubmit="return confirmDelete()">
+                <input type="hidden" id=<%=i%> value=<%=i%> >
+                <input type="hidden" id="activity_id" name="activity_id" value=<%=activities[i].id%> >
+                <td><input type="text" id="creator" name="creator_id" size="30" value=<%=activities[i].creator%>> </td>
+                <td><input type="text" id="date" name="date" size="15" value=<%=activities[i].date%>></td>
+                <td><input type="text" id="activity_name" name="activity_name" size="50" value="<%=activities[i].name%>"></td>
+                <td><textarea id="activity_details" name="activity_details" cols="25" rows="5"> <%=activities[i].details%> </textarea>
+                <td><input type="text" id="from_time" name="from_time" size="10" value=<%=activities[i].fromTime%>></td>
+                <td><input type="text" id="to_time" name="to_time" size="10" value=<%=activities[i].toTime%>></td>
+                <td><input type="text" id="is_atendee_visible" size="10" name="is_atendee_visible" value=<%=activities[i].isAtendeeVisible%>></td>
+                <td><input type="text" id="activity_type" name="activity_type" value=<%=activities[i].type%>></td>
+                <td><input type="submit" id="edit_button" value="Delete"></td>
+              </form>
+            </tr>
+          <% } %>
+          <input type="hidden" id="selected_row" value="">
+        </tbody>
+      </table>
+      <!--SCRIPTS-->
+      <script src="/js/dependencies/sails.io.js"></script>
+      <!--SCRIPTS END-->
+    </div>
+    <table id="extra_comments">
+          <tr>
+            <td>*: required attributes</td>
+          </tr>
+    </table>
+    <div align="justify">
+      <a href="/manager"> Back </a>
+    </div>
+  </body>
+
+  <script type="text/javascript">
+  function confirmDelete(){
+    var txt;
+    var r = confirm("Are you sure to Delete this activity?");
+    return(r);
+  }
+
+  </script>
+
+</html>

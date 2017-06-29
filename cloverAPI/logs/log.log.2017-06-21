@@ -1,0 +1,133 @@
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m\u001b[90m-------------------------------------------------------\u001b[39m","timestamp":"2017-06-21T15:42:53.914Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m\u001b[90m:: Wed Jun 21 2017 17:42:53 GMT+0200 (CEST)\u001b[39m","timestamp":"2017-06-21T15:42:53.926Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mEnvironment : development","timestamp":"2017-06-21T15:42:53.926Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mPort        : 1337","timestamp":"2017-06-21T15:42:53.926Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m\u001b[90m-------------------------------------------------------\u001b[39m","timestamp":"2017-06-21T15:42:53.926Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /user/login < Body > {\"gender\":\"male\",\"fbId\":\"451634205198039\",\"firstName\":\"Alex\",\"age\":\"28\",\"email\":\"alexcardovenus@gmail.com\",\"fbToken\":\"EAAXLY68eypcBAHMS5QlOef66fPuQbNt3F6vgCuW3mXnY8rmeiV9jttdTFlhiZClD8BGh0zZACvOf9PtlUeMRtE0EEP0tqx3HWtnbKYG9rSzmAVxctn2ZB7FgxOfCLaUDZBKwTgxOpKCK8ZBzesruXwiFU9CSu7ZAkgdp0r6GM3Pz9KHUZCGzlF6YocilpuRUaKb1XqIolIUKTLOehG0yFZCHWbZBGzewCTJtEM5XE7ZBZCwBwZDZD\",\"lastName\":\"Cardo\"}","timestamp":"2017-06-21T15:43:46.450Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUserCtrl > User already exists!","timestamp":"2017-06-21T15:43:48.098Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity/createdByUser?creator=59284ed3103509cb656ab86d","timestamp":"2017-06-21T15:43:50.987Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting getting activities created by user-----","timestamp":"2017-06-21T15:43:50.987Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /user/login < Body > {\"gender\":\"male\",\"fbId\":\"451634205198039\",\"firstName\":\"Alex\",\"age\":\"28\",\"email\":\"alexcardovenus@gmail.com\",\"fbToken\":\"EAAXLY68eypcBAHMS5QlOef66fPuQbNt3F6vgCuW3mXnY8rmeiV9jttdTFlhiZClD8BGh0zZACvOf9PtlUeMRtE0EEP0tqx3HWtnbKYG9rSzmAVxctn2ZB7FgxOfCLaUDZBKwTgxOpKCK8ZBzesruXwiFU9CSu7ZAkgdp0r6GM3Pz9KHUZCGzlF6YocilpuRUaKb1XqIolIUKTLOehG0yFZCHWbZBGzewCTJtEM5XE7ZBZCwBwZDZD\",\"lastName\":\"Cardo\"}","timestamp":"2017-06-21T15:43:54.663Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUserCtrl > User already exists!","timestamp":"2017-06-21T15:43:55.386Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity?lat=39.000000&lon=-77.000000&userAge=25&userGender=male&fbId=451634205198039","timestamp":"2017-06-21T15:43:57.117Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting new Request of activities-----","timestamp":"2017-06-21T15:43:57.117Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUser Age: 25 || User Gender: male","timestamp":"2017-06-21T15:43:57.117Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mFbFriends: 0||FbFriendsOfFriends: 0","timestamp":"2017-06-21T15:43:57.565Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity/createdByUser?creator=59284ed3103509cb656ab86d","timestamp":"2017-06-21T15:43:58.160Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting getting activities created by user-----","timestamp":"2017-06-21T15:43:58.160Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity?lat=39.000000&lon=-77.000000&userAge=25&userGender=male&fbId=451634205198039","timestamp":"2017-06-21T15:43:58.544Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting new Request of activities-----","timestamp":"2017-06-21T15:43:58.546Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUser Age: 25 || User Gender: male","timestamp":"2017-06-21T15:43:58.546Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mFbFriends: 0||FbFriendsOfFriends: 0","timestamp":"2017-06-21T15:43:58.965Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Start Filtering Activities : 21","timestamp":"2017-06-21T15:44:02.545Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 1 : Number of Days : 21","timestamp":"2017-06-21T15:44:02.545Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 2 : Default Preferences : 21","timestamp":"2017-06-21T15:44:02.546Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 3 : Distance : 9","timestamp":"2017-06-21T15:44:02.564Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 4 : Visibility privacy : 9","timestamp":"2017-06-21T15:44:02.564Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 59033e580cb1f45519d39073","timestamp":"2017-06-21T15:44:02.564Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities found : 9","timestamp":"2017-06-21T15:44:02.564Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Finishing new Request of activities-----","timestamp":"2017-06-21T15:44:02.565Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity?lat=39.000000&lon=-77.000000&userAge=25&userGender=male&fbId=451634205198039","timestamp":"2017-06-21T15:44:04.899Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting new Request of activities-----","timestamp":"2017-06-21T15:44:04.899Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUser Age: 25 || User Gender: male","timestamp":"2017-06-21T15:44:04.900Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Start Filtering Activities : 21","timestamp":"2017-06-21T15:44:05.054Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 1 : Number of Days : 21","timestamp":"2017-06-21T15:44:05.055Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 2 : Default Preferences : 21","timestamp":"2017-06-21T15:44:05.055Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 3 : Distance : 9","timestamp":"2017-06-21T15:44:05.059Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 4 : Visibility privacy : 9","timestamp":"2017-06-21T15:44:05.059Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 59033e580cb1f45519d39073","timestamp":"2017-06-21T15:44:05.059Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities found : 9","timestamp":"2017-06-21T15:44:05.059Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Finishing new Request of activities-----","timestamp":"2017-06-21T15:44:05.059Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mFbFriends: 0||FbFriendsOfFriends: 0","timestamp":"2017-06-21T15:44:05.334Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Start Filtering Activities : 21","timestamp":"2017-06-21T15:44:09.780Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 1 : Number of Days : 21","timestamp":"2017-06-21T15:44:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 2 : Default Preferences : 21","timestamp":"2017-06-21T15:44:09.781Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 3 : Distance : 9","timestamp":"2017-06-21T15:44:09.790Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 4 : Visibility privacy : 9","timestamp":"2017-06-21T15:44:09.790Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 59033e580cb1f45519d39073","timestamp":"2017-06-21T15:44:09.790Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities found : 9","timestamp":"2017-06-21T15:44:09.790Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Finishing new Request of activities-----","timestamp":"2017-06-21T15:44:09.790Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity?lat=39.000000&lon=-77.000000&type1=Sports&type2=Food%20%26%20Drinks&type3=Theater&type4=Music&type5=Movies&type6=Outdoors&type7=Recreation&createdBy=everyone&dayStart=0&dayEnd=180&userAge=25&userGender=male&fbId=451634205198039","timestamp":"2017-06-21T15:45:58.238Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting new Request of activities-----","timestamp":"2017-06-21T15:45:58.239Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUser Age: 25 || User Gender: male","timestamp":"2017-06-21T15:45:58.239Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mFbFriends: 0||FbFriendsOfFriends: 0","timestamp":"2017-06-21T15:45:58.728Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Start Filtering Activities : 21","timestamp":"2017-06-21T15:46:02.899Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mStart date :Wed Jun 21 2017 00:00:00 GMT+0200 (CEST) End Date : Tue Dec 19 2017 00:00:00 GMT+0100 (CET)","timestamp":"2017-06-21T15:46:02.909Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 1 : Number of Days : 0","timestamp":"2017-06-21T15:46:02.909Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 2 : Default Preferences : 0","timestamp":"2017-06-21T15:46:02.909Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 3 : Distance : 0","timestamp":"2017-06-21T15:46:02.910Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 4 : Visibility privacy : 0","timestamp":"2017-06-21T15:46:02.910Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities found : 0","timestamp":"2017-06-21T15:46:02.910Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Finishing new Request of activities-----","timestamp":"2017-06-21T15:46:02.910Z"}
+{"level":"error","message":"\u001b[31merror: \u001b[39mError: The hook `orm` is taking too long to load.\nMake sure it is triggering its `initialize()` callback, or else set `sails.config.orm._hookTimeout to a higher value (currently 20000)\n    at Timeout.tooLong [as _onTimeout] (/Volumes/DATA/Work/Clover/Clover-API/cloverAPI/node_modules/sails/lib/app/private/loadHooks.js:85:21)\n    at ontimeout (timers.js:386:14)\n    at tryOnTimeout (timers.js:250:5)\n    at Timer.listOnTimeout (timers.js:214:5)","timestamp":"2017-06-21T15:54:37.127Z"}
+{"level":"error","message":"\u001b[31merror: \u001b[39mError: The hook `orm` is taking too long to load.\nMake sure it is triggering its `initialize()` callback, or else set `sails.config.orm._hookTimeout to a higher value (currently 20000)\n    at Timeout.tooLong [as _onTimeout] (/Volumes/DATA/Work/Clover/Clover-API/cloverAPI/node_modules/sails/lib/app/private/loadHooks.js:85:21)\n    at ontimeout (timers.js:386:14)\n    at tryOnTimeout (timers.js:250:5)\n    at Timer.listOnTimeout (timers.js:214:5)","timestamp":"2017-06-21T15:55:46.291Z"}
+{"level":"error","message":"\u001b[31merror: \u001b[39mError: The hook `orm` is taking too long to load.\nMake sure it is triggering its `initialize()` callback, or else set `sails.config.orm._hookTimeout to a higher value (currently 20000)\n    at Timeout.tooLong [as _onTimeout] (/Volumes/DATA/Work/Clover/Clover-API/cloverAPI/node_modules/sails/lib/app/private/loadHooks.js:85:21)\n    at ontimeout (timers.js:386:14)\n    at tryOnTimeout (timers.js:250:5)\n    at Timer.listOnTimeout (timers.js:214:5)","timestamp":"2017-06-21T15:56:41.089Z"}
+{"level":"error","message":"\u001b[31merror: \u001b[39mError: The hook `orm` is taking too long to load.\nMake sure it is triggering its `initialize()` callback, or else set `sails.config.orm._hookTimeout to a higher value (currently 20000)\n    at Timeout.tooLong [as _onTimeout] (/Volumes/DATA/Work/Clover/Clover-API/cloverAPI/node_modules/sails/lib/app/private/loadHooks.js:85:21)\n    at ontimeout (timers.js:386:14)\n    at tryOnTimeout (timers.js:250:5)\n    at Timer.listOnTimeout (timers.js:214:5)","timestamp":"2017-06-21T15:57:36.712Z"}
+{"level":"error","message":"\u001b[31merror: \u001b[39mA hook (`orm`) failed to load!","timestamp":"2017-06-21T15:57:41.945Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m\u001b[90m-------------------------------------------------------\u001b[39m","timestamp":"2017-06-21T15:58:53.032Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m\u001b[90m:: Wed Jun 21 2017 17:58:53 GMT+0200 (CEST)\u001b[39m","timestamp":"2017-06-21T15:58:53.034Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mEnvironment : development","timestamp":"2017-06-21T15:58:53.034Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mPort        : 1337","timestamp":"2017-06-21T15:58:53.034Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m\u001b[90m-------------------------------------------------------\u001b[39m","timestamp":"2017-06-21T15:58:53.034Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /user/login < Body > {\"gender\":\"male\",\"fbId\":\"451634205198039\",\"firstName\":\"Alex\",\"age\":\"28\",\"email\":\"alexcardovenus@gmail.com\",\"fbToken\":\"EAAXLY68eypcBAHMS5QlOef66fPuQbNt3F6vgCuW3mXnY8rmeiV9jttdTFlhiZClD8BGh0zZACvOf9PtlUeMRtE0EEP0tqx3HWtnbKYG9rSzmAVxctn2ZB7FgxOfCLaUDZBKwTgxOpKCK8ZBzesruXwiFU9CSu7ZAkgdp0r6GM3Pz9KHUZCGzlF6YocilpuRUaKb1XqIolIUKTLOehG0yFZCHWbZBGzewCTJtEM5XE7ZBZCwBwZDZD\",\"lastName\":\"Cardo\"}","timestamp":"2017-06-21T15:59:40.516Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUserCtrl > User already exists!","timestamp":"2017-06-21T15:59:42.651Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity/createdByUser?creator=59284ed3103509cb656ab86d","timestamp":"2017-06-21T15:59:45.511Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting getting activities created by user-----","timestamp":"2017-06-21T15:59:45.511Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity?lat=39.000000&lon=-77.000000&userAge=25&userGender=male&fbId=451634205198039","timestamp":"2017-06-21T15:59:48.480Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting new Request of activities-----","timestamp":"2017-06-21T15:59:48.481Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUser Age: 25 || User Gender: male","timestamp":"2017-06-21T15:59:48.482Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mFbFriends: 0||FbFriendsOfFriends: 0","timestamp":"2017-06-21T15:59:48.902Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Start Filtering Activities : 21","timestamp":"2017-06-21T15:59:52.800Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 1 : Number of Days : 21","timestamp":"2017-06-21T15:59:52.801Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 2 : Default Preferences : 21","timestamp":"2017-06-21T15:59:52.801Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 3 : Distance : 9","timestamp":"2017-06-21T15:59:52.811Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 4 : Visibility privacy : 9","timestamp":"2017-06-21T15:59:52.811Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 59033e580cb1f45519d39073","timestamp":"2017-06-21T15:59:52.811Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities found : 9","timestamp":"2017-06-21T15:59:52.811Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Finishing new Request of activities-----","timestamp":"2017-06-21T15:59:52.811Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity?lat=39.000000&lon=-77.000000&type1=Sports&type2=Food%20%26%20Drinks&createdBy=everyone&dayStart=0&dayEnd=180&userAge=25&userGender=male&fbId=451634205198039","timestamp":"2017-06-21T16:00:05.312Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting new Request of activities-----","timestamp":"2017-06-21T16:00:05.313Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUser Age: 25 || User Gender: male","timestamp":"2017-06-21T16:00:05.313Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mFbFriends: 0||FbFriendsOfFriends: 0","timestamp":"2017-06-21T16:00:05.791Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Start Filtering Activities : 10","timestamp":"2017-06-21T16:00:07.609Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mStart date :Wed Jun 21 2017 00:00:00 GMT+0200 (CEST) End Date : Tue Dec 19 2017 00:00:00 GMT+0100 (CET)","timestamp":"2017-06-21T16:00:07.609Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 1 : Number of Days : 0","timestamp":"2017-06-21T16:00:07.609Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 2 : Default Preferences : 0","timestamp":"2017-06-21T16:00:07.609Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 3 : Distance : 0","timestamp":"2017-06-21T16:00:07.609Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 4 : Visibility privacy : 0","timestamp":"2017-06-21T16:00:07.609Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities found : 0","timestamp":"2017-06-21T16:00:07.609Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Finishing new Request of activities-----","timestamp":"2017-06-21T16:00:07.609Z"}
+{"level":"error","message":"\u001b[31merror: \u001b[39mError: The hook `orm` is taking too long to load.\nMake sure it is triggering its `initialize()` callback, or else set `sails.config.orm._hookTimeout to a higher value (currently 20000)\n    at Timeout.tooLong [as _onTimeout] (/Volumes/DATA/Work/Clover/Clover-API/cloverAPI/node_modules/sails/lib/app/private/loadHooks.js:85:21)\n    at ontimeout (timers.js:386:14)\n    at tryOnTimeout (timers.js:250:5)\n    at Timer.listOnTimeout (timers.js:214:5)","timestamp":"2017-06-21T16:26:04.975Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m\u001b[90m-------------------------------------------------------\u001b[39m","timestamp":"2017-06-21T16:27:00.842Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m\u001b[90m:: Wed Jun 21 2017 18:27:00 GMT+0200 (CEST)\u001b[39m","timestamp":"2017-06-21T16:27:00.844Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mEnvironment : development","timestamp":"2017-06-21T16:27:00.844Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mPort        : 1337","timestamp":"2017-06-21T16:27:00.844Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m\u001b[90m-------------------------------------------------------\u001b[39m","timestamp":"2017-06-21T16:27:00.844Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /user/login < Body > {\"gender\":\"male\",\"fbId\":\"451634205198039\",\"firstName\":\"Alex\",\"age\":\"28\",\"email\":\"alexcardovenus@gmail.com\",\"fbToken\":\"EAAXLY68eypcBAHMS5QlOef66fPuQbNt3F6vgCuW3mXnY8rmeiV9jttdTFlhiZClD8BGh0zZACvOf9PtlUeMRtE0EEP0tqx3HWtnbKYG9rSzmAVxctn2ZB7FgxOfCLaUDZBKwTgxOpKCK8ZBzesruXwiFU9CSu7ZAkgdp0r6GM3Pz9KHUZCGzlF6YocilpuRUaKb1XqIolIUKTLOehG0yFZCHWbZBGzewCTJtEM5XE7ZBZCwBwZDZD\",\"lastName\":\"Cardo\"}","timestamp":"2017-06-21T16:27:18.361Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUserCtrl > User already exists!","timestamp":"2017-06-21T16:27:19.970Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity/createdByUser?creator=59284ed3103509cb656ab86d","timestamp":"2017-06-21T16:27:22.661Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting getting activities created by user-----","timestamp":"2017-06-21T16:27:22.661Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity?lat=39.000000&lon=-77.000000&userAge=25&userGender=male&fbId=451634205198039","timestamp":"2017-06-21T16:27:25.580Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting new Request of activities-----","timestamp":"2017-06-21T16:27:25.580Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUser Age: 25 || User Gender: male","timestamp":"2017-06-21T16:27:25.583Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mFbFriends: 0||FbFriendsOfFriends: 0","timestamp":"2017-06-21T16:27:26.008Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Start Filtering Activities : 21","timestamp":"2017-06-21T16:27:28.911Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 1 : Number of Days : 21","timestamp":"2017-06-21T16:27:28.912Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 2 : Default Preferences : 21","timestamp":"2017-06-21T16:27:28.912Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 3 : Distance : 9","timestamp":"2017-06-21T16:27:28.920Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 4 : Visibility privacy : 9","timestamp":"2017-06-21T16:27:28.920Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mCreator does not exist. ActivityId : 59033e580cb1f45519d39073","timestamp":"2017-06-21T16:27:28.920Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities found : 9","timestamp":"2017-06-21T16:27:28.921Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Finishing new Request of activities-----","timestamp":"2017-06-21T16:27:28.921Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mRequest > /activity?lat=39.000000&lon=-77.000000&type1=Sports&type2=Food%20%26%20Drinks&type3=Theater&createdBy=everyone&dayStart=0&dayEnd=56&userAge=25&userGender=male&fbId=451634205198039","timestamp":"2017-06-21T16:30:48.437Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Starting new Request of activities-----","timestamp":"2017-06-21T16:30:48.438Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mUser Age: 25 || User Gender: male","timestamp":"2017-06-21T16:30:48.439Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mFbFriends: 0||FbFriendsOfFriends: 0","timestamp":"2017-06-21T16:30:48.942Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Start Filtering Activities : 11","timestamp":"2017-06-21T16:30:51.014Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39mStart date :Wed Jun 21 2017 00:00:00 GMT+0200 (CEST) End Date : Thu Aug 17 2017 00:00:00 GMT+0200 (CEST)","timestamp":"2017-06-21T16:30:51.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 1 : Number of Days : 0","timestamp":"2017-06-21T16:30:51.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 2 : Default Preferences : 0","timestamp":"2017-06-21T16:30:51.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 3 : Distance : 0","timestamp":"2017-06-21T16:30:51.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities passed 4 : Visibility privacy : 0","timestamp":"2017-06-21T16:30:51.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m>>>>Activities found : 0","timestamp":"2017-06-21T16:30:51.015Z"}
+{"level":"debug","message":"\u001b[34mdebug: \u001b[39m-----Finishing new Request of activities-----","timestamp":"2017-06-21T16:30:51.016Z"}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edit Activity List</title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--STYLES-->
+    <link rel="stylesheet" href="/styles/importer.css">
+    <!--STYLES END-->
+  </head>
+  
+  <body onload="createTable()">
+    <h2> Edit Activity List</h2>
+    <div id="div_table">
+      <table id="data_activity_table">
+        <tbody>
+          <tr>
+            <th>Creator*</th>
+            <th>Date*</th>
+            <th>Name*</th>
+            <th>Details*</th>
+            <th>From Time</th>
+            <th>To Time</th>
+            <th>Is Atendee Visible</th>
+            <th>Type*</th>
+            <th>Formatted Address*</th>
+            <th>Latitude*</th>
+            <th>Longitude*</th>
+            <td>Visibility</td>
+            <td>Activity Gender</td>
+            <td>Activity Age Filter From</td>
+            <td>Activity Age Filter To</td>
+            <th>Edit</th>
+          </tr>
+          <% for (var i = 0; i < activities.length; i++){ %>
+            <tr>
+              <form action="/manager/editActivity" method="POST">
+                <input type="hidden" id="id_location" name="id_location" value=<%=activities[i].location.id%>>
+                <input type="hidden" id=<%=i%> value=<%=i%> >
+                <input type="hidden" id="activity_id" name="activity_id" value=<%=activities[i].id%> >
+                <td><input type="text" id="creator_id" name="creator_id" size="30" value="<%=activities[i].creator%>"></td>
+                <td><input type="text" id="date" name="date" size="15" value="<%=activities[i].date%>"></td>
+                <td><input type="text" id="activity_name" name="activity_name" size="50" value="<%=activities[i].name%>"></td>
+                <td><textarea id="activity_details" name="activity_details" cols="25" rows="5"> <%=activities[i].details%> </textarea>
+                <td><input type="text" id="from_time" name="from_time" size="10" value="<%=activities[i].fromTime%>"></td>
+                <td><input type="text" id="to_time" name="to_time" size="10" value="<%=activities[i].toTime%>"></td>
+                <td>
+                  <select id="is_atendee_visible" name="is_atendee_visible">
+                    <% var possile_types_atendee = [true, false]; %>
+                    <% for (var h = 0; h < 2; h++){ %>
+                           <% if (activities[i].isAtendeeVisible == possile_types_atendee[h]) { %>
+                              <option selected value="<%=possile_types_atendee[h]%>"> <%=possile_types_atendee[h]%> </option>
+                            <% } else { %>
+                              <option value="<%=possile_types_atendee[h]%>"> <%=possile_types_atendee[h]%> </option>
+                            <% } %>
+                    <% } %>
+                  </select>
+                </td>
+                <td>
+                  <select id="activity_type" name="activity_type">
+                  <% var possile_types = ['Sports', 'Food & Drinks', 'Theater', 'Music', 'Movies', 'Outdoors', 'Recreation']; %>
+                  <% for (var j = 0; j < possile_types.length; j++){ %>
+                       <% if (activities[i].type == possile_types[j]) { %>
+                          <option selected value="<%=possile_types[j]%>"> <%=possile_types[j]%> </option>
+                        <% } else { %>
+                          <option value="<%=possile_types[j]%>"> <%=possile_types[j]%> </option>
+                        <% } %>
+                  <% } %>
+                  </select>
+                </td>
+                <td><input type="text" id="activity_address" name="activity_address" size="40" value="<%=activities[i].location.formatted_address%>"></td>
+                <td><input type="text" id="activity_lat" name="activity_lat" value="<%=activities[i].location.lat%>"></td>
+                <td><input type="text" id="activity_lon" name="activity_lon" value=<%=activities[i].location.lon%>></td>
+                 <td>
+                   <select id="activity_visibility" name="activity_visibility">
+                    <% var possile_activity_visibility = ["Everyone", "Friends", "Friends_of_Friends"]; %>
+                    <% for (var h = 0; h < possile_activity_visibility.length; h++){ %>
+                           <% if (activities[i].visibility == possile_activity_visibility[h]) { %>
+                              <option selected value="<%=possile_activity_visibility[h]%>"> <%=possile_activity_visibility[h]%> </option>
+                            <% } else { %>
+                              <option value="<%=possile_activity_visibility[h]%>"> <%=possile_activity_visibility[h]%> </option>
+                            <% } %>
+                    <% } %>
+                  </select>
+                 </td>
+                 <td>
+                   <select id="activity_gender" name="activity_gender">
+                    <% var possile_activity_gender = ["male", "female", "both"]; %>
+                    <% for (var h = 0; h < possile_activity_gender.length; h++){ %>
+                     <% if (activities[i].gender == possile_activity_gender[h]) { %>
+                        <option selected value="<%=possile_activity_gender[h]%>"> <%=possile_activity_gender[h]%> </option>
+                      <% } else { %>
+                        <option value="<%=possile_activity_gender[h]%>"> <%=possile_activity_gender[h]%> </option>
+                      <% } %>
+                    <% } %>
+                   </select>
+                 </td>
+                 <td>
+                   <select id="activity_age_filter_from" name="activity_age_filter_from">
+                    <% for (var h = 0; h < 100; h++){ %>
+                     <% if (activities[i].age_filter_from == h) { %>
+                        <option selected value="<%=h%>"> <%=h%> </option>
+                      <% } else { %>
+                        <option value="<%=h%>"> <%=h%> </option>
+                      <% } %>
+                    <% } %>
+                   </select>
+                 </td>
+                 <td>
+                   <select id="activity_age_filter_to" name="activity_age_filter_to">
+                    <% for (var h = 0; h < 100; h++){ %>
+                     <% if (activities[i].age_filter_to == h) { %>
+                        <option selected value="<%=h%>"> <%=h%> </option>
+                      <% } else { %>
+                        <option value="<%=h%>"> <%=h%> </option>
+                      <% } %>
+                    <% } %>
+                   </select>
+                 </td>
+                <td><input type="submit" id="edit_button" value="Edit" </td>
+              </form>
+            </tr>
+          <% } %>
+          <input type="hidden" id="selected_row" value="">
+        </tbody>
+      </table>
+      <!--SCRIPTS-->
+      <script src="/js/dependencies/sails.io.js"></script>
+      <!--SCRIPTS END-->
+    </div>
+    <table id="extra_comments">
+          <tr>
+            <td>*: required attributes</td>
+          </tr>
+    </table>
+    <div align="justify">
+      <a href="/manager"> Back </a>
+    </div>
+  </body>
+
+</html>

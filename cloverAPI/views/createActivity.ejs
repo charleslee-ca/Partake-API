@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Activity</title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--STYLES-->
+    <link rel="stylesheet" href="/styles/importer.css">
+    <!--STYLES END-->
+  </head>
+
+  <h2> Create Activity </h2>
+  <form action="/manager/createActivity" method="POST">
+    <body>
+      <table id="data_activity_table">
+        <tr>
+          <td>Creator</td>
+          <td>
+            <select id="creator_id" name="creator_id">
+              <% for (var i = 0; i < users.length; i++){ %>
+                <option value="<%=users[i].id%>"> <%=users[i].firstName%> <%=users[i].lastName%> </option>
+              <% } %>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Date</td>
+          <td>
+            <input type="text" id="date" name="date" value="Format: YYYY-MM-DD" onfocus="if (this.value=='Format: YYYY-MM-DD') this.value='';" onblur="if (this.value=='') this.value='Format: YYYY-MM-DD';" />
+          </td>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td><input type="text" id="activity_name" name="activity_name"></td>
+        </tr>
+        <tr>
+          <td>Details</td>
+          <td><textarea id="activity_details" name="activity_details"></textarea>
+        </tr>
+        <tr>
+          <td>From Time</td>
+          <td><input type="text" id="from_time" name="from_time" value="Format: hh:mm (AM/PM)" onfocus="if (this.value=='Format: hh:mm (AM/PM)') this.value='';" onblur="if (this.value=='') this.value='Format: hh:mm (AM/PM)';" /></td>
+        </tr>
+        <tr>
+          <td>To Time</td>
+          <td><input type="text" id="to_time" name="to_time" value="Format: hh:mm (AM/PM)" onfocus="if (this.value=='Format: hh:mm (AM/PM)') this.value='';" onblur="if (this.value=='') this.value='Format: hh:mm (AM/PM)';" /></td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td><input type="text" id="activity_address" name="activity_address"></td>
+        </tr>
+        <tr>
+          <td>Type</td>
+          <td>
+            <select id="activity_type" name="activity_type">
+              <% var activity_types = ['Sports', 'Food & Drinks','Theater','Music','Movies','Outdoors','Recreation']; %>
+              <% for (var j = 0; j < activity_types.length; j++){ %>
+                <option value="<%=activity_types[j]%>"> <%=activity_types[j]%></option>
+              <% } %>
+            </select>
+          </td>
+        </tr>
+        <tr>
+         <td> Is Atendee Visible </td>
+         <td>
+           <select id="is_Atendee_Visible" name="is_Atendee_Visible">
+            <option value="true">true</option>
+            <option value="false">false</option>
+           </select>
+         </td>
+        </tr>
+        <tr>
+         <td> Visibility </td>
+         <td>
+           <select id="activity_visibility" name="activity_visibility">
+            <option value="Everyone">Everyone</option>
+            <option value="Friends">Friends</option>
+            <option value="Friends_of_Friends">Friends of Friends</option>
+           </select>
+         </td>
+        </tr>
+        <tr>
+         <td> Activity Gender </td>
+         <td>
+           <select id="activity_gender" name="activity_gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="both">both</option>
+           </select>
+         </td>
+        </tr>
+        <tr>
+         <td> Activity Age Filter From</td>
+         <td>
+           <select id="activity_age_filter_from" name="activity_age_filter_from">
+            <% for (var h = 0; h < 100; h++){ %>
+                <option value="<%=h%>"> <%=h%></option>
+            <% } %>
+           </select>
+         </td>
+        </tr>
+        <tr>
+         <td> Activity Age Filter To</td>
+         <td>
+           <select id="activity_age_filter_to" name="activity_age_filter_to">
+            <% for (var h = 0; h < 100; h++){ %>
+                <option value="<%=h%>"> <%=h%></option>
+            <% } %>
+           </select>
+         </td>
+        </tr>
+        <tr>
+          <tr>
+            <td>
+              <input type="submit" id="submit_button" value="Create">
+            </td>
+          </tr>
+        </tr>
+      </table>
+      <!--SCRIPTS-->
+      <script src="/js/dependencies/sails.io.js"></script>
+      <!--SCRIPTS END-->
+    </body>
+  </form>
+  <table id="extra_comments">
+        <tr>
+          <td>*: required attributes</td>
+        </tr>
+  </table>
+  <div align="justify">
+      <a href="/manager"> Back </a>
+  </div>
+</html>
